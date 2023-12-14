@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e91616;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .team {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  

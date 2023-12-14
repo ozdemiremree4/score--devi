@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futbol Takımları Skor Sayacı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="scoreboard">
+    <div class="team">
+      <h2 id="teamAName">takım adı girin</h2>
+      <p>Gol Sayısı: <span id="teamAScore">0</span></p>
+      <button onclick="incrementScore('teamA')">Gol Ekle</button>
+      <button onclick="decrementScore('teamA')">Gol Azalt</button>
+      <button onclick="setScore('teamA')">Gol Atama</button>
+      <button onclick="changeTeamName('teamA')">İsim Değiştir</button>
+    </div>
+
+    <div class="team">
+      <h2 id="teamBName">Takım adı girin</h2>
+      <p>Gol Sayısı: <span id="teamBScore">0</span></p>
+      <button onclick="incrementScore('teamB')">Gol Ekle</button>
+      <button onclick="decrementScore('teamB')">Gol Azalt</button>
+      <button onclick="setScore('teamB')">Gol Atama</button>
+      <button onclick="changeTeamName('teamB')">İsim Değiştir</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
